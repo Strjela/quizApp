@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+body{
+    /* box-sizing: border-box; */
+    background-color: #F5F7FB;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.top-right-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25rem; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+
+  }
+  
+  .bottom-left-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 25rem; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    
+  }
+
+
+  .quizIntro{
+    position: absolute;
+      top: 40%;
+      left: 45%;
+      
+  }
+
+
+.quizIntro h1 {
+    color: #293264;
+    font-size: 4rem;
+    font-family: "Karla";
+    font-weight: 700;
+    margin-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.quizIntro p {
+    color: #293264;
+
+font-size: 2rem;
+font-family: "Inter";
+margin-left: -2rem;
+}
+
+.quizIntro button{
+    border-radius: 15px;
+    background: #4D5B9E;
+    width: 25rem;
+    height: 4rem;
+    color: #F5F7FB;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Inter";
+    font-weight: 500;
+    margin-left: -2.3rem;
+    margin-top: 2rem;
+
+    cursor: pointer;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.18);
+}
+
+.quizIntro button:focus {
+    outline: none;
+}
+
+.quizIntro button:active {
+    box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* .questions--container{
+    border-bottom: 1px solid #DBDEF0;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.questions--text{
+    color: #293264;
+font-size: 1.8rem;
+font-family: Karla;
+font-weight: 700;
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+position: relative;
+  z-index: 1;
+}
+
+.questions--button{
+    border-radius: 7.942px;
+    border: 0.13rem solid #4D5B9E;
+    background: #F5F7FB;
+    color: #293264;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Inter;
+    font-weight: 600;
+    padding: 5px 20px;
+    cursor: pointer;
+    
+    
+}
+
+.questions--button:hover{
+    background-color: #D6DBF5;
+}
+
+.questions--button:active{
+    background-color: #c4cbec;
+}
+
+.questions--answers{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 100vh;
+
+    
+}
+
+.check--button{
+    color: #F5F7FB;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Inter;
+    font-weight: 500;
+    background-color: #4D5B9E;
+    padding: 15px 35px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.check--button:hover{
+    background-color: #414c83;
+}
+
+ */
