@@ -1,11 +1,11 @@
 
 
-export default function IntroQuiz(){
+export default function IntroQuiz(props){
     return (
         <div className="quizIntro"> 
             <h1>Quizzical</h1>
             <p>Test your knowledge now</p> 
-            <button>Start quiz</button> 
+            <button onClick={props.removeQuizIntro}>Start quiz</button> 
         </div>
         
     )
