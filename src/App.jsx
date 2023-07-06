@@ -130,7 +130,7 @@ import Questions from "./Qustions"
         const updatedQuestions = oldQue.map((question) => {
           const updatedAnswers = question.allAns.map((ans) => {
             if (ans.isHeld && ans.answer === question.correct_answer) {
-              count++;
+              setNumberOfCorrectAns(oldAns => oldAns + 1)
               return { ...ans, isCorrect: true };
             } else if (!ans.isHeld && ans.answer === question.correct_answer) {
               return { ...ans, isCorrect: true };
@@ -143,12 +143,12 @@ import Questions from "./Qustions"
         
         console.log(count)
         /* ovo je vjerovatno najgluplje rjesenje ikad al nisan zna vise kako al ovo radi jbg xD */
-        setNumberOfCorrectAns(count /2);
+        /* setNumberOfCorrectAns(count /2); */
         return updatedQuestions;
       });
     }
     
-
+setNumberOfCorrectAns(oldAns => oldAns + 1)
 
      const rendering =   allQuestions.map((item)=>{
       return <Questions 
