@@ -148,7 +148,6 @@ import Questions from "./Qustions"
       });
     }
     
-setNumberOfCorrectAns(oldAns => oldAns + 1)
 
      const rendering =   allQuestions.map((item)=>{
       return <Questions 
